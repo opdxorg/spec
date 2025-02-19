@@ -9,6 +9,8 @@ theme:
   custom_dir: overrides
   logo: assets/icon-light.png
   favicon: assets/icon-accent.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     scheme: opdx
   font:
