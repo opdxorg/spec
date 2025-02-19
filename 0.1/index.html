@@ -397,6 +397,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Principles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features
@@ -626,6 +635,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#design-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Principles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features
@@ -654,13 +672,20 @@
 
 
 <h1 id="opdx-specification">OPDX Specification<a class="headerlink" href="#opdx-specification" title="Permanent link">#</a></h1>
-<p>Welcome to the <strong>Open Profile Data Exchange (OPDX)</strong> specification!</p>
+<p>Welcome to the <strong>Open Profile Data Exchange (OPDX)</strong> protocol specification!</p>
 <h2 id="what-is-opdx">What is OPDX?<a class="headerlink" href="#what-is-opdx" title="Permanent link">#</a></h2>
-<p>OPDX is an open standard that allows email clients and services to retrieve profile metadata for email addresses securely.</p>
+<p><strong>OPDX (Open Profile Data Exchange)</strong> is a decentralized protocol for retrieving public profile data (such as avatars) associated with an email address. The protocol allows email providers and self-hosted instances to expose profile data in a standardized way, without relying on a centralized service, like Gravatar.</p>
+<h2 id="design-principles">Design Principles<a class="headerlink" href="#design-principles" title="Permanent link">#</a></h2>
+<ol>
+<li><strong>Open &amp; Decentralized</strong> – Anyone can build and host an OPDX-compatible instance. Which server, framework or language to use is completly in the hands of developers, as long as the instance complies with the OPDX specification.</li>
+<li><strong>Privacy-Conscious</strong> – No authentication required. Rate-limiting and caching are optional, but should be considered.</li>
+<li><strong>DNS-Based Discovery</strong> – Clients discover OPDX servers using a simple TXT record. There is no need for a central instance or directory of instances.</li>
+<li><strong>Minimal &amp; Lightweight</strong> – The protocol mandates simple REST API requests and responses using a standardized JSON format.</li>
+</ol>
 <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">#</a></h2>
 <ul>
-<li>🚀 Open &amp; decentralized</li>
-<li>🔐 Privacy-focused</li>
+<li>🔓 Open &amp; decentralized</li>
+<li>🤫 Privacy-focused</li>
 <li>🌎 Compatible with multiple providers</li>
 </ul>
 <p><a href="overview/">Get Started →</a></p>
