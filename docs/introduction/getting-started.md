@@ -2,6 +2,7 @@
 title: Getting Started
 parent: Introduction
 nav_order: 1
+last_modified_date: 25.02.2025
 ---
 
 ## Getting Started
