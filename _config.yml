@@ -1,0 +1,84 @@
+title: OPDX Protocol Specification
+description: Welcome to the specification of the Open Profile Data Exchange (OPDX) Protocol.
+logo: "/assets/images/logo-accent.png"
+favicon_ico: "/assets/images/favicon.ico"
+repository: opdxorg/spec
+docs_dir: docs
+
+theme: just-the-docs
+color_scheme: opdx
+
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
+
+permalink: pretty
+
+enable_copy_code_button: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+url: https://berrysauce.dev/justthedocs
+baseurl: ""
+aux_links:
+  OPDX on GitHub: https://github.com/opdxorg/spec
+
+footer_content: "Copyright &copy; 2025 OPDX Protocol. The protocol specification is distributed with an <a href=\"https://github.com/opdxorg/spec/blob/main/LICENSE\">MIT license.</a>"
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/opdxorg/spec"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+callouts:
+  info:
+    title: Info
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: purple
+  warning:
+    title: Warning
+    color: yellow
+  danger:
+    title: Caution
+    color: red
