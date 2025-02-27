@@ -14,15 +14,8 @@
     "relUrl": "/docs/introduction/"
   },"2": {
     "doc": "Home",
-    "title": "OPDX Protocol Specification",
-    "content": "Welcome to the Open Profile Data Exchange (OPDX) protocol specification! . What is OPDX? . OPDX (Open Profile Data Exchange) is a decentralized protocol for retrieving public profile data (such as avatars) associated with an email address. The protocol allows email providers and self-hosted instances to expose profile data in a standardized way, without relying on a centralized service, like Gravatar. Features . | 🔓 Open &amp; decentralized | 🤫 Privacy-focused | 🌎 Compatible with multiple providers | . Design Principles . | Open &amp; Decentralized – Anyone can build and host an OPDX-compatible instance. Which server, framework or language to use is completly in the hands of developers, as long as the instance complies with the OPDX specification. | Privacy-Conscious – No authentication required. Rate-limiting and caching are optional, but should be considered. | DNS-Based Discovery – Clients discover OPDX servers using a simple TXT record. There is no need for a central instance or directory of instances. | Minimal &amp; Lightweight – The protocol mandates simple REST API requests and responses using a standardized JSON format. | . ",
-    "url": "/#opdx-protocol-specification",
-    
-    "relUrl": "/#opdx-protocol-specification"
-  },"3": {
-    "doc": "Home",
     "title": "Home",
-    "content": " ",
+    "content": "Welcome to the Open Profile Data Exchange (OPDX) protocol specification! . What is OPDX? . OPDX (Open Profile Data Exchange) is a decentralized protocol for retrieving public profile data (such as avatars) associated with an email address. The protocol allows email providers and self-hosted instances to expose profile data in a standardized way, without relying on a centralized service, like Gravatar. Features . | 🔓 Open &amp; decentralized | 🤫 Privacy-focused | 🌎 Compatible with multiple providers | . Design Principles . | Open &amp; Decentralized – Anyone can build and host an OPDX-compatible instance. Which server, framework or language to use is completly in the hands of developers, as long as the instance complies with the OPDX specification. | Privacy-Conscious – No authentication required. Rate-limiting and caching are optional, but should be considered. | DNS-Based Discovery – Clients discover OPDX servers using a simple TXT record. There is no need for a central instance or directory of instances. | Minimal &amp; Lightweight – The protocol mandates simple REST API requests and responses using a standardized JSON format. | . ",
     "url": "/",
     
     "relUrl": "/"

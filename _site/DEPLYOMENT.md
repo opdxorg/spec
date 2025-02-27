@@ -1,12 +1,16 @@
 # Deployment
 
-## Local Testing
+## Local installation & testing
+
+Check https://jekyllrb.com/docs/ for more information on how to run a Jekyll project locally.
+
+After installing all Ruby prerequisites:
 ```
-uv run mkdocs serve
+gem install jekyll bundler
+bundle install
 ```
 
-## Building
+To start the server locally, run:
 ```
-uv run mike deploy --push --update-aliases [VERSION] latest
-uv run mike set-default --push latest
+bundle exec jekyll serve --livereload
 ```

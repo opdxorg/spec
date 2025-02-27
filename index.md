@@ -2,10 +2,8 @@
 title: Home
 layout: home
 nav_order: 1
-last_modified_date: 25.02.2025
+last_modified_date: 27.02.2025
 ---
-
-## OPDX Protocol Specification
 
 Welcome to the Open Profile Data Exchange (OPDX) protocol specification!
 
