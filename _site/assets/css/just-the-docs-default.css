@@ -1261,10 +1261,10 @@ body {
   position: relative;
 }
 .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
-  color: rgba(255, 255, 255, 0.6666666667);
+  color: #ffffff;
 }
 .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-expander {
-  color: rgba(255, 255, 255, 0.6666666667);
+  color: #ffffff;
 }
 .nav-list .nav-list-item.active > .nav-list-expander svg {
   transform: rotate(-90deg);
