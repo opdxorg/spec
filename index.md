@@ -7,7 +7,7 @@ last_modified_date: 27.02.2025
 
 This is the specification for the Open Profile Data Exchange (OPDX) protocol.
 
-#### Copyright Notice
+### Copyright Notice
 
 The OPDX protocol including this protocol specification is open-source under the [MIT License](https://github.com/opdxorg/spec/blob/main/LICENSE).
 

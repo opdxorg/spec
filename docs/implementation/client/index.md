@@ -1,5 +1,6 @@
 ---
 title: Client-Side
+parent: Implementation
 nav_order: 1
 last_modified_date: 09.03.2025
 ---

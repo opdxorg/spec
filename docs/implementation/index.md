@@ -14,7 +14,7 @@ If you're a developer looking to integrate OPDX into your application, there are
 \
 The client-side is responsible for fetching and displaying profile data from an OPDX-compatible API (hosted by the email provider or service). You’ll typically use the user's email address (hashed for privacy) to make the request and display the profile information in your app.\
 \
-[→ Learn more](/docs/introduction)
+[→ Learn more](/docs/implementation/client)
 
 ---
 
@@ -22,4 +22,4 @@ The client-side is responsible for fetching and displaying profile data from an 
 \
 On the server side, you'll need to implement an OPDX-compatible API that serves profile data based on an email address. This involves exposing the data through HTTP endpoints, supporting authentication (if necessary), and respecting privacy settings.\
 \
-[→ Learn more](/docs/introduction)
+[→ Learn more](/docs/implementation/server)

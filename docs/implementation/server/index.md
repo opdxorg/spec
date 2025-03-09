@@ -1,5 +1,6 @@
 ---
 title: Server-Side
+parent: Implementation
 nav_order: 2
 last_modified_date: 09.03.2025
 ---
