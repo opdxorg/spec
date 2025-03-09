@@ -10,8 +10,8 @@ OPDX (Open Profile Data Exchange) is a decentralized protocol for retrieving pub
 
 ## Features
 
-🔓 Open & decentralized
-🤫 Privacy-focused
+🔓 Open & decentralized\
+🤫 Privacy-focused\
 🌎 Compatible with multiple providers
 
 ## Design Principles

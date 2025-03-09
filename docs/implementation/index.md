@@ -2,6 +2,7 @@
 title: Implementation
 nav_order: 3
 last_modified_date: 09.03.2025
+has_toc: false
 ---
 
 ## Implementation

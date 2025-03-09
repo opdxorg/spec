@@ -1,21 +1,77 @@
 {"0": {
     "doc": "Getting Started",
     "title": "Getting Started",
-    "content": "OPDX is designed with privacy and interoperability in mind, allowing users to control the visibility of their profile data while enabling a broad ecosystem of services to access it securely. Use Cases . | Avatar &amp; Profile Retrieval: Services can display user avatars or other profile information associated with an email address (similar to how Gravatar works). | Cross-Service Identity: OPDX can be used to centralize profile information across different services, allowing seamless integration without needing to re-enter personal details. | . Quick Start Guide . If you’re a developer looking to integrate OPDX into your application, there are two main areas to focus on: . Client-Side Implementation . The client-side is responsible for fetching and displaying profile data from an OPDX-compatible API (hosted by the email provider or service). You’ll typically use the user’s email address (hashed for privacy) to make the request and display the profile information in your app. → Learn more . Server-Side Implementation . On the server side, you’ll need to implement an OPDX-compatible API that serves profile data based on an email address. This involves exposing the data through HTTP endpoints, supporting authentication (if necessary), and respecting privacy settings. → Learn more . ",
+    "content": "OPDX is designed with privacy and interoperability in mind, allowing users to control the visibility of their profile data while enabling a broad ecosystem of services to access it securely. Use Cases . | Avatar &amp; Profile Retrieval: Services can display user avatars or other profile information associated with an email address (similar to how Gravatar works). | Cross-Service Identity: OPDX can be used to centralize profile information across different services, allowing seamless integration without needing to re-enter personal details. | . ",
     "url": "/docs/introduction/getting-started/",
     
     "relUrl": "/docs/introduction/getting-started/"
   },"1": {
+    "doc": "Introduction",
+    "title": "What is OPDX?",
+    "content": "OPDX (Open Profile Data Exchange) is a decentralized protocol for retrieving public profile data (such as avatars) associated with an email address. The protocol allows email providers and self-hosted instances to expose profile data in a standardized way, without relying on a centralized service, like Gravatar. ",
+    "url": "/docs/introduction/#what-is-opdx",
+    
+    "relUrl": "/docs/introduction/#what-is-opdx"
+  },"2": {
+    "doc": "Introduction",
+    "title": "Features",
+    "content": "🔓 Open &amp; decentralized 🤫 Privacy-focused 🌎 Compatible with multiple providers . ",
+    "url": "/docs/introduction/#features",
+    
+    "relUrl": "/docs/introduction/#features"
+  },"3": {
+    "doc": "Introduction",
+    "title": "Design Principles",
+    "content": ". | Open &amp; Decentralized – Anyone can build and host an OPDX-compatible instance. Which server, framework or language to use is completly in the hands of developers, as long as the instance complies with the OPDX specification. | Privacy-Conscious – No authentication required. Rate-limiting and caching are optional, but should be considered. | DNS-Based Discovery – Clients discover OPDX servers using a simple TXT record. There is no need for a central instance or directory of instances. | Minimal &amp; Lightweight – The protocol mandates simple REST API requests and responses using a standardized JSON format. | . ",
+    "url": "/docs/introduction/#design-principles",
+    
+    "relUrl": "/docs/introduction/#design-principles"
+  },"4": {
     "doc": "Introduction",
     "title": "Introduction",
     "content": " ",
     "url": "/docs/introduction/",
     
     "relUrl": "/docs/introduction/"
-  },"2": {
+  },"5": {
+    "doc": "Server-Side",
+    "title": "Server-Side Implementation",
+    "content": "On the server side, you’ll need to implement an OPDX-compatible API that serves profile data based on an email address. This involves exposing the data through HTTP endpoints, supporting authentication (if necessary), and respecting privacy settings. ",
+    "url": "/docs/implementation/server/#server-side-implementation",
+    
+    "relUrl": "/docs/implementation/server/#server-side-implementation"
+  },"6": {
+    "doc": "Server-Side",
+    "title": "Server-Side",
+    "content": " ",
+    "url": "/docs/implementation/server/",
+    
+    "relUrl": "/docs/implementation/server/"
+  },"7": {
+    "doc": "Client-Side",
+    "title": "Client-Side Implementation",
+    "content": "The client-side is responsible for fetching and displaying profile data from an OPDX-compatible API (hosted by the email provider or service). You’ll typically use the user’s email address (hashed for privacy) to make the request and display the profile information in your app. ",
+    "url": "/docs/implementation/client/#client-side-implementation",
+    
+    "relUrl": "/docs/implementation/client/#client-side-implementation"
+  },"8": {
+    "doc": "Client-Side",
+    "title": "Client-Side",
+    "content": " ",
+    "url": "/docs/implementation/client/",
+    
+    "relUrl": "/docs/implementation/client/"
+  },"9": {
+    "doc": "Implementation",
+    "title": "Implementation",
+    "content": "If you’re a developer looking to integrate OPDX into your application, there are two main areas to focus on: . Client-Side Implementation . The client-side is responsible for fetching and displaying profile data from an OPDX-compatible API (hosted by the email provider or service). You’ll typically use the user’s email address (hashed for privacy) to make the request and display the profile information in your app. → Learn more . Server-Side Implementation . On the server side, you’ll need to implement an OPDX-compatible API that serves profile data based on an email address. This involves exposing the data through HTTP endpoints, supporting authentication (if necessary), and respecting privacy settings. → Learn more . ",
+    "url": "/docs/implementation/",
+    
+    "relUrl": "/docs/implementation/"
+  },"10": {
     "doc": "Home",
     "title": "Home",
-    "content": "Welcome to the Open Profile Data Exchange (OPDX) protocol specification! . What is OPDX? . OPDX (Open Profile Data Exchange) is a decentralized protocol for retrieving public profile data (such as avatars) associated with an email address. The protocol allows email providers and self-hosted instances to expose profile data in a standardized way, without relying on a centralized service, like Gravatar. Features . | 🔓 Open &amp; decentralized | 🤫 Privacy-focused | 🌎 Compatible with multiple providers | . Design Principles . | Open &amp; Decentralized – Anyone can build and host an OPDX-compatible instance. Which server, framework or language to use is completly in the hands of developers, as long as the instance complies with the OPDX specification. | Privacy-Conscious – No authentication required. Rate-limiting and caching are optional, but should be considered. | DNS-Based Discovery – Clients discover OPDX servers using a simple TXT record. There is no need for a central instance or directory of instances. | Minimal &amp; Lightweight – The protocol mandates simple REST API requests and responses using a standardized JSON format. | . ",
+    "content": "This is the specification for the Open Profile Data Exchange (OPDX) protocol. Copyright Notice . The OPDX protocol including this protocol specification is open-source under the MIT License. MIT License Copyright (c) 2025 OPDX by berrysauce Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. ",
     "url": "/",
     
     "relUrl": "/"
